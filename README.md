@@ -2,7 +2,7 @@
 
 A [Claude skill](https://support.anthropic.com/en/articles/12111783-what-are-skills) for converting multi-objective tasks into formal UtilityMax prompts.
 
-Based on [UtilityMax Prompting: A Formal Framework for Multi-Objective Large Language Model Optimization](PAPER_URL) by Ofir Marom.
+Based on [UtilityMax Prompting: A Formal Framework for Multi-Objective Large Language Model Optimization](https://arxiv.org/abs/2603.11583) by Ofir Marom.
 
 ## The Problem
 
@@ -41,7 +41,7 @@ Given a user-supplied task and context, this skill converts them into a UtilityM
 Download `SKILL.md` and upload it via **Settings → Capabilities → Skills**.
 
 ```bash
-curl -O https://raw.githubusercontent.com/USERNAME/utilitymax-skill/main/SKILL.md
+curl -O https://raw.githubusercontent.com/OfirMarom/utilitymax-skill/main/SKILL.md
 ```
 
 ### Claude Code (user-scoped)
@@ -51,7 +51,7 @@ Make the skill available across all projects:
 ```bash
 mkdir -p ~/.claude/skills/utilitymax
 curl -o ~/.claude/skills/utilitymax/SKILL.md \
-  https://raw.githubusercontent.com/USERNAME/utilitymax-skill/main/SKILL.md
+  https://raw.githubusercontent.com/OfirMarom/utilitymax-skill/main/SKILL.md
 ```
 
 ### Claude Code (project-scoped)
@@ -61,7 +61,7 @@ Scope the skill to a single repo:
 ```bash
 mkdir -p .claude/skills/utilitymax
 curl -o .claude/skills/utilitymax/SKILL.md \
-  https://raw.githubusercontent.com/USERNAME/utilitymax-skill/main/SKILL.md
+  https://raw.githubusercontent.com/OfirMarom/utilitymax-skill/main/SKILL.md
 ```
 
 ## When to Use
