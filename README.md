@@ -105,7 +105,7 @@ The skill is working if outputs include:
 ```bibtex
 @techreport{marom2026utilitymax,
   title  = {UtilityMax Prompting: A Formal Framework for Multi-Objective
-            Large Language Model Optimization},
+            Large Language Model Tasks},
   author = {Marom, Ofir},
   year   = {2026},
   type   = {Technical Report},
